@@ -8,7 +8,7 @@ export default class BlockExplorer extends Component {
   async componentWillMount() {
     //load web3
     let web3 = new Web3(
-      "https://mainnet.infura.io/v3/603fe463004742a2b543665a2c391ab5"
+      "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
     );
 
     //fetch the latest block
